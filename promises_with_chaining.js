@@ -46,3 +46,18 @@ $("#btn").on("click", () => {
     })
     .catch(showError);
 });
+
+//async await
+// $("#btn").on("click", async () => {
+//   try {
+//     const user = await getUser("hibiken");
+//     const weather = await getWeather(user);
+//     updateUI({
+//       user,
+//       weather,
+//     });
+//   } catch (e) {
+//     showError(e);
+//   }
+// });
+
